@@ -143,6 +143,8 @@ begin
 					Ures := Uop1 or Uop2;
 				WHEN EX_XOR =>
 					Ures := Uop1 xor Uop2;
+				WHEN EX_XNOR =>
+					Ures := Uop1 xnor Uop2;
 				WHEN EX_NOT =>
 					Ures := not(Uop1);
 				WHEN EX_DSL =>

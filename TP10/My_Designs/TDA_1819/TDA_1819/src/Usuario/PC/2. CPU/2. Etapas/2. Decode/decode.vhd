@@ -1165,7 +1165,7 @@ begin
 					IDtoEX.op2 <= DataRegOutID(31 downto 0); 
 				end if;
 			WHEN XNORR =>
-				IDtoEX.op <= std_logic_vector(to_unsigned(EX_XOR, IDtoEX.op'length));
+				IDtoEX.op <= std_logic_vector(to_unsigned(EX_XNOR, IDtoEX.op'length));
 				IDtoEX.fp <= '0';
 				IDtoEX.sign <= '0';
 				IDtoWB.datasize <= std_logic_vector(to_unsigned(4, IDtoWB.datasize'length));
