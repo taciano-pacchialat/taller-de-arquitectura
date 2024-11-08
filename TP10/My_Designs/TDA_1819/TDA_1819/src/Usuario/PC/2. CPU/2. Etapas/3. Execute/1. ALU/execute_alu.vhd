@@ -206,6 +206,8 @@ begin
 					Sres := Sop1 or Sop2;
 				WHEN EX_XOR =>
 					Sres := Sop1 xor Sop2;
+				WHEN EX_XNOR =>
+					Sres := Sop1 xnor Sop2;
 				WHEN EX_NOT =>
 					Sres := not(Sop1);
 				WHEN EX_DSL => 
