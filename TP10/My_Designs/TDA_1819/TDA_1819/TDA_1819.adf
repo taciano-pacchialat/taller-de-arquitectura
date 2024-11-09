@@ -83,7 +83,7 @@ Usuario\PC\4. Memoria=1
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=usuario|USUARIO_ARCHITECTURE|0
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 [Files]

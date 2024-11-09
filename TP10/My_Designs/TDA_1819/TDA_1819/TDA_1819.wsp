@@ -108,121 +108,157 @@ Status=Modified
 FileTimeLow=0
 Status=Modified
 [COMPILESTATUS|.\src\Packages\const_ascii.vhd]
-FileTimeLow=30763907
+FileTimeLow=2524410657
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\const_buses.vhd]
-FileTimeLow=30734703
+FileTimeLow=2524680932
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\const_cpu.vhd]
-FileTimeLow=30759814
+FileTimeLow=425705876
 Status=Compiled
+FileTimeHigh=31142450
 [COMPILESTATUS|.\src\Packages\const_ensamblador.vhd]
-FileTimeLow=2071731526
-Status=Modified
-FileTimeHigh=31142409
+FileTimeLow=583467041
+Status=Compiled
+FileTimeHigh=31142581
 [COMPILESTATUS|.\src\Packages\const_flags.vhd]
-FileTimeLow=30734717
+FileTimeLow=2525413426
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\const_memoria.vhd]
-FileTimeLow=30750194
+FileTimeLow=2525651797
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\const_registros.vhd]
-FileTimeLow=30734895
+FileTimeLow=2525919597
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\const_reloj.vhd]
-FileTimeLow=30734898
+FileTimeLow=2526146881
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\func_ensamblador.vhd]
-FileTimeLow=30763907
+FileTimeLow=2526446067
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\repert_cpu.vhd]
-FileTimeLow=30753569
+FileTimeLow=2824538827
 Status=Compiled
+FileTimeHigh=31142405
 [COMPILESTATUS|.\src\Packages\tipos_ascii.vhd]
-FileTimeLow=30763907
+FileTimeLow=2526909177
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\tipos_cpu.vhd]
-FileTimeLow=30735126
+FileTimeLow=2527139247
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\tipos_ensamblador.vhd]
-FileTimeLow=30763907
+FileTimeLow=2527373817
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Packages\tipos_memoria.vhd]
-FileTimeLow=30735126
+FileTimeLow=2527595570
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\1. Ensamblador\ensamblador.vhd]
-FileTimeLow=30763919
+FileTimeLow=2528544018
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\1. UI\1. Máquina de Estados\states_machine.vhd]
-FileTimeLow=30763919
+FileTimeLow=2529496363
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\1. UI\2. Registros FP\registros_fp.vhd]
-FileTimeLow=30763919
+FileTimeLow=2529831116
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\1. UI\ui.vhd]
-FileTimeLow=30763919
+FileTimeLow=2529175940
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\1. Fetch\fetch.vhd]
-FileTimeLow=30772754
+FileTimeLow=2530471715
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\2. Decode\decode.vhd]
-FileTimeLow=2383749999
-Status=Modified
-FileTimeHigh=31142410
+FileTimeLow=1251716495
+Status=Compiled
+FileTimeHigh=31142581
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\3. Execute\1. ALU\execute_alu.vhd]
-FileTimeLow=30763919
+FileTimeLow=3997107554
 Status=Compiled
+FileTimeHigh=31142449
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\3. Execute\2. FPU\execute_fpu.vhd]
-FileTimeLow=30763919
+FileTimeLow=2531665031
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\3. Execute\execute.vhd]
-FileTimeLow=30763919
+FileTimeLow=2531077174
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\4. Memory Access\memory_access.vhd]
-FileTimeLow=30763919
+FileTimeLow=2531971626
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\5. Writeback\writeback.vhd]
-FileTimeLow=30763919
+FileTimeLow=2532252250
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\2. Etapas\etapas.vhd]
-FileTimeLow=30763919
+FileTimeLow=2530160306
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\3. Pipeline_Registros\pipeline_registros.vhd]
-FileTimeLow=30763919
+FileTimeLow=2532552546
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\4. Atascos\1. Estructurales\str_detector.vhd]
-FileTimeLow=30763919
+FileTimeLow=2533127221
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\4. Atascos\2. Datos\raw_waw_detector.vhd]
-FileTimeLow=30763919
+FileTimeLow=2533522332
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\4. Atascos\atascos.vhd]
-FileTimeLow=30763919
+FileTimeLow=2532847920
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\5. CPU_Admin\cpu_admin.vhd]
-FileTimeLow=30763919
+FileTimeLow=2533842379
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\6. Reloj\reloj.vhd]
-FileTimeLow=30763919
+FileTimeLow=2534155711
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\7. Registros\registros.vhd]
-FileTimeLow=30763919
+FileTimeLow=2534439724
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\2. CPU\cpu.vhd]
-FileTimeLow=30763919
+FileTimeLow=2528861875
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\3. Buses_Admin\buses_admin.vhd]
-FileTimeLow=30763919
+FileTimeLow=2534971552
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\4. Memoria\memoria.vhd]
-FileTimeLow=30763919
+FileTimeLow=2535284882
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\PC\pc.vhd]
-FileTimeLow=30763919
+FileTimeLow=2528230805
 Status=Compiled
+FileTimeHigh=31142399
 [COMPILESTATUS|.\src\Usuario\usuario.vhd]
-FileTimeLow=30772763
+FileTimeLow=2527919712
 Status=Compiled
+FileTimeHigh=31142399
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\TDA_1819\src/Packages/const_buses.vhd|]
 CurrentLine=0
 CurrentColumn=0
@@ -534,5 +570,19 @@ WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////3EBAAB6AAAAgAcAADIDAAAA
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\TDA_1819\TDA_1819.adf|]
 Path=
-[Gui config]
-RunFor=100 ns
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\TDA_1819\src/Usuario/usuario.vhd|]
+CurrentLine=27
+CurrentColumn=13
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////0gBAACZAAAAfwcAAGoDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\TDA_1819\src/Packages/const_ensamblador.vhd|]
+CurrentLine=77
+CurrentColumn=124
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////0gBAACZAAAAfwcAAN8CAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
