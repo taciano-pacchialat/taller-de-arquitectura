@@ -55,7 +55,6 @@ PACKAGE const_cpu is
 	CONSTANT EX_AND:		INTEGER := 12;
 	CONSTANT EX_OR:			INTEGER := 13;
 	CONSTANT EX_XOR:		INTEGER := 14;
-	CONSTANT EX_XNOR: 		INTEGER := 24; -- Agrego como operacion xnor
 	CONSTANT EX_NOT:		INTEGER := 15;
 	CONSTANT EX_DSL:		INTEGER := 16;
 	CONSTANT EX_DSR:		INTEGER := 17;
@@ -65,6 +64,7 @@ PACKAGE const_cpu is
 	CONSTANT EX_BNEZ:		INTEGER := 21;
 	CONSTANT EX_BFPT:		INTEGER := 22;
 	CONSTANT EX_BFPF:		INTEGER := 23;
+	CONSTANT EX_XNOR: 		INTEGER := 24; 		-- Agrego como operacion xnor
 	
 	CONSTANT MEM_NULL:		INTEGER := 0;		-- La instrucción actual no necesita realizar ninguna 
 												-- acción en la etapa Memory Access

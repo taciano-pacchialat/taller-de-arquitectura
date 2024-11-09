@@ -207,7 +207,7 @@ begin
 				WHEN EX_XOR =>
 					Sres := Sop1 xor Sop2;
 				WHEN EX_XNOR =>
-					Sres := Sop1 xnor Sop2;
+					Sres := not(Sop1 xor Sop2);
 				WHEN EX_NOT =>
 					Sres := not(Sop1);
 				WHEN EX_DSL => 
@@ -664,6 +664,30 @@ begin
 					WAIT FOR 1 ns;
 					EnableRegEXALUWr <= '0';
 					WAIT FOR 1 ns;
+				WHEN EX_XNOR =>
+					if(ResBin(FLAG_F) = '0') then
+						DataRegInEXALU(FLAG_Z) <= '1';
+					else
+						DataRegInEXALU(FLAG_Z) <= '0';
+					end if;
+					DataRegInEXALU(FLAG_S) <= ResBin(31);
+					DataRegInEXALU(FLAG_O) <= '0';
+					DataRegInEXALU(FLAG_C) <= '0';
+					DataRegInEXALU(FLAG_A) <= '0';
+					for i in 31 downto 0 loop
+						if (ResBin(i) = '1') then
+							cant1s := cant1s + 1;
+						end if;
+					end loop;
+					if (cant1s MOD 2 = 0) then
+						DataRegInEXALU(FLAG_P) <= '1';
+					else
+						DataRegInEXALU(FLAG_P) <= '0';
+					end if;
+					EnableRegEXALUWr <= '1';
+					WAIT FOR 1 ns;
+					EnableRegEXALUWr <= '0';
+					WAIT FOR 1 ns;
 				WHEN OTHERS =>
 					report "Error: la operación a ejecutar en la ALU no es válida"
 					severity FAILURE;
@@ -1089,6 +1113,30 @@ begin
 					DataRegInEXALU(FLAG_C) <= '0';
 					DataRegInEXALU(FLAG_A) <= '0';
 					for i in 7 downto 0 loop
+						if (ResBin(i) = '1') then
+							cant1s := cant1s + 1;
+						end if;
+					end loop;
+					if (cant1s MOD 2 = 0) then
+						DataRegInEXALU(FLAG_P) <= '1';
+					else
+						DataRegInEXALU(FLAG_P) <= '0';
+					end if;
+					EnableRegEXALUWr <= '1';
+					WAIT FOR 1 ns;
+					EnableRegEXALUWr <= '0';
+					WAIT FOR 1 ns;
+				WHEN EX_XNOR =>
+					if (to_integer(unsigned(ResBin(31 downto 0))) = 0) then
+						DataRegInEXALU(FLAG_Z) <= '1';
+					else
+						DataRegInEXALU(FLAG_Z) <= '0';
+					end if;
+					DataRegInEXALU(FLAG_S) <= ResBin(31);
+					DataRegInEXALU(FLAG_O) <= '0';
+					DataRegInEXALU(FLAG_C) <= '0';
+					DataRegInEXALU(FLAG_A) <= '0';
+					for i in 31 downto 0 loop
 						if (ResBin(i) = '1') then
 							cant1s := cant1s + 1;
 						end if;

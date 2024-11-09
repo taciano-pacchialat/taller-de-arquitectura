@@ -72,9 +72,9 @@ PACKAGE const_ensamblador is
 	CONSTANT INSTAR_CODES:		instar_code_array(1 to CANT_INSTAR) := (DADD, DADDI, DADDU, DADDUI, ADDF, DSUB, DSUBU, SUBF, DMUL, DMULU, MULF, DDIV, DDIVU, DIVF, SLT, SLTI, LTF, LEF, EQF, NEGR, DSUBI);
 	CONSTANT INSTAR_SIZES:		instar_size_array(1 to CANT_INSTAR) := (5, 8, 5, 8, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 8, 4, 4, 4, 4, 8);
 	
-	CONSTANT INSTLD_NAMES: 		instld_name_array(1 to CANT_INSTLD) := ("and  ", "andi ", "or   ", "ori  ", "xor  ", "xori ", "not  ", "dsl  ", "dsli ", "dsr  ", "dsri ", "dsls ", "dslsi", "dsrs ", "dsrsi", "xnorr");
-	CONSTANT INSTLD_CODES:		instld_code_array(1 to CANT_INSTLD) := (ANDR, ANDI, ORR, ORI, XORR, XORI, NOTR, DSL, DSLI, DSR, DSRI, DSLS, DSLSI, DSRS, DSRSI, XNORR);
-	CONSTANT INSTLD_SIZES:		instld_size_array(1 to CANT_INSTLD) := (5, 8, 5, 8, 5, 8, 4, 8, 5, 8, 5, 8, 5, 8, 8, 5);
+	CONSTANT INSTLD_NAMES: 		instld_name_array(1 to CANT_INSTLD) := ("and  ", "andi ", "or   ", "ori  ", "xor  ", "xori ", "not  ","xnorr", "dsl  ", "dsli ", "dsr  ", "dsri ", "dsls ", "dslsi", "dsrs ", "dsrsi");
+	CONSTANT INSTLD_CODES:		instld_code_array(1 to CANT_INSTLD) := (ANDR, ANDI, ORR, ORI, XORR, XORI, NOTR, XNORR, DSL, DSLI, DSR, DSRI, DSLS, DSLSI, DSRS, DSRSI);
+	CONSTANT INSTLD_SIZES:		instld_size_array(1 to CANT_INSTLD) := (5, 8, 5, 8, 5, 8, 4, 5, 8, 8, 5, 8, 5, 8, 5, 8);
 	
 	CONSTANT INSTTC_NAMES: 		insttc_name_array(1 to CANT_INSTTC) := ("jmp ", "beq ", "bne ", "beqz", "bnez", "bfpt", "bfpf");
 	CONSTANT INSTTC_CODES:		insttc_code_array(1 to CANT_INSTTC) := (JMP, BEQ, BNE, BEQZ, BNEZ, BFPT, BFPF);
