@@ -733,7 +733,7 @@ begin
 				rdAux := to_integer(unsigned(IFtoIDLocal.package1(7 downto 0))) + 1;
 				rfAux := to_integer(unsigned(IFtoIDLocal.package1(15 downto 8)));
 				IDtoEX.op2(7 downto 0) <= IFtoIDLocal.package1(23 downto 16);
-				IDtoEX.op2(31 downto 8) <= IFtoIDLocal.package1(23 downto 0);
+				IDtoEX.op2(31 downto 8) <= IFtoIDLocal.package2(23 downto 0);
 				IDtoWB.mode <= std_logic_vector(to_unsigned(rdAux, IDtoWB.mode'length));
 				IdRegID <= std_logic_vector(to_unsigned(rfAux, IdRegID'length));
 				SizeRegID <= std_logic_vector(to_unsigned(4, SizeRegID'length));

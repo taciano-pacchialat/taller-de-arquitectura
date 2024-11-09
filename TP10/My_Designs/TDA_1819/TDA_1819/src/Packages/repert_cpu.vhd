@@ -52,9 +52,6 @@ PACKAGE repert_cpu is
 	
 -- Aritméticas
 
-	-- DSUBI rd, rf, N
-	CONSTANT DSUBI:			std_logic_vector(7 downto 0) := "00010100";
-
 	-- DADD rd, rf, rg	
 	CONSTANT DADD:			std_logic_vector(7 downto 0) := "00011000";
 	-- DADDI rd, rf, N
@@ -95,12 +92,11 @@ PACKAGE repert_cpu is
 	CONSTANT EQF:			std_logic_vector(7 downto 0) := "00101010";
 	-- NEG rd, rf 
 	CONSTANT NEGR:			std_logic_vector(7 downto 0) := "00101011";
+	-- DSUBI rd, rf, N
+	CONSTANT DSUBI:			std_logic_vector(7 downto 0) := "00101100";
 
 	  
 -- Lógicas 
-
-	--XNORR rd, rf, rg
-	CONSTANT XNORR:			std_logic_vector(7 downto 0) := "00101100";
 
 	-- AND rd, rf, rg
 	CONSTANT ANDR:			std_logic_vector(7 downto 0) := "00110000";		
@@ -116,6 +112,8 @@ PACKAGE repert_cpu is
 	CONSTANT XORI:			std_logic_vector(7 downto 0) := "00110101";
 	-- NOT rd, rf
 	CONSTANT NOTR:			std_logic_vector(7 downto 0) := "00110110";
+	--XNORR rd, rf, rg
+	CONSTANT XNORR:			std_logic_vector(7 downto 0) := "00110111";
 	
 
 -- Desplazamiento de bits
